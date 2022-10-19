@@ -71,6 +71,7 @@ a:hover {
     max-width: 1000px;
     margin-bottom: 16px;
     flex-flow: column wrap;
+    flex-shrink: 0;
 }
 
 #button {
@@ -78,6 +79,13 @@ a:hover {
     border-radius: 8px;
     background: #eee;
     padding: 10px 20px;
+}
+
+#imageicon {
+    color: #367056;
+    font-weight: bold;
+    position: absolute;
+    left: 450px;
 }
 
 
