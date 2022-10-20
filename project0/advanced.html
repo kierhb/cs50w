@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <div class="header-adv">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            <ul class="navlink">
+                <li><a href="index.html">Search</a></li>
+            </ul>
+        </div>
+        <h2>Advanced Search</h2>
+        <div id="divider">&nbsp</div>
+        <div>
+            <div class="search-title">
+                <h3 class="column1">Find pages with...</h3>
+                <div id="blank">&nbsp</div>
+                <h4 class="column3">To do this in the search box</h4>
+            </div>
+            <form action="https://google.com/search" method="get">
+                <div class="search-body">
+                    <div class="rows">
+                        <div class="column1">all this words:</div>
+                        <input class="column2" type="text" name="q" maxlength="2048" autocapitalize="off" autocomplete="off" autocorrect="off" title="Query1">
+                        <div class="column3">
+                            Type the important words: <div id="sample">tricolor rat terrier</div>
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <div class="column1">this exact word or phrase:</div>
+                        <input class="column2" type="text" name="q" maxlength="2048" autocapitalize="off" autocomplete="off" autocorrect="off" title="Query1">
+                        <div class="column3">
+                            Put exact words in quotes: <div id="sample">"rat terrier"</div>
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <div class="column1">any of these words:</div>
+                        <input class="column2" type="text" name="q" maxlength="2048" autocapitalize="off" autocomplete="off" autocorrect="off" title="Query1">
+                        <div class="column3">
+                            Type OR between all the words you want: <div id="sample">miniature OR standard</div>
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <div class="column1">none of these words:</div>
+                        <input class="column2" type="text" name="q" maxlength="2048" autocapitalize="off" autocomplete="off" autocorrect="off" title="Query1">
+                        <div class="column3">
+                            Put a minus sign just before words you don't want:  <div id="sample">-rodent, -"Jack Russell"</div>
+                        </div>
+                    </div>
+                    <div class="rows">
+                        <div class="column1">&nbsp</div>
+                        <div id="adv-section">
+                            <input id="adv-button" type="submit" value="Advanced Search">
+                        </div>
+                        <div class="column3">&nbsp</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="divider">&nbsp</div>
+        <div class="footer">
+            Copyright &#169; github.com/kierhb
+        </div>
+    </body>
+</html>
