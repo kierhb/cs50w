@@ -39,7 +39,7 @@ a:hover {
     align-items: center;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%, -50%);
 }
 
@@ -79,6 +79,7 @@ a:hover {
     border-radius: 8px;
     background: #eee;
     padding: 10px 20px;
+    margin: 0px 3px;
 }
 
 #imageicon {
